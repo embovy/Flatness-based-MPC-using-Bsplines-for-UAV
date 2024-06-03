@@ -1,5 +1,5 @@
 # Flatness-based MPC using Bsplines for UAV
-The use of B-splines in trajectory generation for a tailsitter drone is compared to the Direct Multiple Shooting (DMS) method. A Model Predictive Controller (MPC) is constructed based the B-spline approach in order to exploit the flatness property of the tailsitter. This code is part of the Master's Dissertation of Emile Bovyn (2024, Ghent University). 
+The use of B-splines in trajectory generation for a tailsitter drone is compared to the Direct Multiple Shooting (DMS) method. A Model Predictive Controller (MPC) is constructed based the B-spline approach in order to exploit the flatness property of the tailsitter. This code is part of the Master's Dissertation of Emile Bovyn, emile.bovyn@ugent.be (2024, Ghent University). 
 
 For each approach, a dedicated class is constructed to set up the optimal control problem using the CasADi library for nonlinear optimisation (control_DMS_Ts.py & control_Bsplines.py). DMS is used for regular trajectory optimisation (TrajOpt_DMS.py), while the flatness-based B-spline approach is used for both trajectory optimisation and MPC (TrajOpt_MPC_Bsplines.py).
 
